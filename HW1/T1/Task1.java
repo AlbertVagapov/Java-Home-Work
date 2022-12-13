@@ -1,4 +1,4 @@
-package HW1;
+package HW1.T1;
 
 import java.util.Scanner;
 
@@ -9,7 +9,6 @@ public class Task1 {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите число n: ");
         int n = in.nextInt();
-
         System.out.printf("Треугольное число для " + n + " равно: " + (n * (n + 1)) / 2);
         in.close();
     }

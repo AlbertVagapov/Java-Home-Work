@@ -1,4 +1,4 @@
-package Seminars.Sem1.Task2_name;
+package Seminars\Sem1\Task2_name\name.java;
 
 import java.util.Scanner;
 
@@ -6,6 +6,9 @@ import java.util.Scanner;
  * name
  */
 public class name {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner myScan = new Scanner(System.in);
         System.out.println("Your name: ");
